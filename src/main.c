@@ -33,14 +33,18 @@ int main() {
         printf("Digite sua segunda nota: \n");
         scanf("%f", &n2);
         media = media_aritimetica(n1, n2);
-        printf("A nota do aluno e: %2.f", media);
-        break;
+        printf("A nota do aluno e: %2.f\n", media);
+
 
         case 2: printf ("Classificacao do aluno \n");
-
+        classificacao (media);
         
-    
-        default: printf ("opcao invalida");
+
+
+
+        break;
+        
+        default: printf ("opcao invalida\n");
     }
 
     
