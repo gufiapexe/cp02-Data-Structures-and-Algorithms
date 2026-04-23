@@ -12,7 +12,14 @@ int main() {
     printf("Digite a opcao: ");
     scanf("%d", &opcao);
     switch(opcao){
-        case 1:
+        case 1: printf("Cálculo de média\n");
+        printf("Digite sua primeira nota: \n");
+        scanf("%f", &n1);
+        printf("Digite sua segunda nota: \n");
+        scanf("%f", &n2);
+        media = media_aritimetica(n1, n2);
+        printf("A nota do aluno e: %2.f", media);
+        break;
 
     }
 
