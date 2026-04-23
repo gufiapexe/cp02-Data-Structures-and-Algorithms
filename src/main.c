@@ -22,12 +22,12 @@ int main() {
     int opcao;
     float n1, n2, media;
 
-    printf("1 - Cálculo de média\n");
-    printf("2 - Classificação do aluno\n");
+    printf("1 - Calculo de media\n");
+    printf("2 - Classificacao do aluno\n");
     printf("Digite a opcao: ");
     scanf("%d", &opcao);
     switch(opcao){
-        case 1: printf("Cálculo de média\n");
+        case 1: printf("Calculo de media\n");
         printf("Digite sua primeira nota: \n");
         scanf("%f", &n1);
         printf("Digite sua segunda nota: \n");
@@ -35,6 +35,8 @@ int main() {
         media = media_aritimetica(n1, n2);
         printf("A nota do aluno e: %2.f", media);
         break;
+
+    
 
     }
 
