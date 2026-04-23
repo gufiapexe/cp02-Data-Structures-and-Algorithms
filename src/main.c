@@ -37,9 +37,10 @@ int main() {
         break;
 
         case 2: printf ("Classificacao do aluno \n");
+
         
     
-
+        default: printf ("opcao invalida");
     }
 
     
