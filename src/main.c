@@ -1,5 +1,20 @@
 #include <stdio.h>  
 
+void classificacao (float m){
+
+    if (m >= 6 && m <=10){
+        printf("aprovado"); 
+    }else if (m < 6 && m >= 4){
+        printf("recuperacao");
+    }else{
+        printf("reprovado");
+    } 
+
+
+    
+}
+    
+
 float media_aritimetica (float nota1, float nota2){
     return (nota1 + nota2) / 2;
 }
