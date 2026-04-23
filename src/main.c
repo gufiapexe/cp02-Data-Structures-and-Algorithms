@@ -36,6 +36,8 @@ int main() {
         printf("A nota do aluno e: %2.f", media);
         break;
 
+        case 2: printf ("Classificacao do aluno \n");
+        
     
 
     }
